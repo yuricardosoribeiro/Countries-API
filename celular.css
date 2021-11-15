@@ -1,0 +1,14 @@
+@media only screen and (max-width: 425px) {
+    .search, .pesquisar {
+        width: 80%;
+    }
+
+    .country-container {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    datalist {
+        width: 80%;
+    }
+}

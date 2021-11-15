@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="celular.css">
+    <title>Rest Countries API</title>
+</head>
+<body>
+    <div class="container">
+        <header>Rest Countries API</header>
+
+        <div class="search-container">
+            <input type="search" list="paises" class="search">
+            <button type="button" class="pesquisar">Search</button>
+
+            <datalist id="paises">
+            </datalist>
+        </div>
+
+        <div class="country-container">
+            <img class="imagem" src="" alt="Imagem da Bandeira" hidden>
+            <div class="nome"></div>
+
+            <div class="nativeName"></div>
+            <div class="capital"></div>
+            <div class="region"></div>
+            <div class="population"></div>
+            <div class="languages"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
